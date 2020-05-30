@@ -11,7 +11,7 @@ Implementation of the atrous cGAN and pix2pix for the SAR-optical translation or
 - Tensorflow 1.14.1
 
 ## Architecture
-![Architecture](https://github.com/jnoat92/atrous-cGAN-for-SAR-optical-synthesis/blob/master/Architecture_table.png)
+![Architecture](https://github.com/jnoat92/atrous-cGAN-for-SAR-optical-synthesis/blob/master/Architecture.png)
 
 
 
