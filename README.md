@@ -16,7 +16,7 @@ Land covers in Brazil.
                   Campo Verde (CV), Mato Grosso state. 
                   Luis Eduardo Magalhães (LEM), Bahia state.
 - Deforestation detection:
-                  Amazon Rainforest (AR), Rondônia state
+                  Amazon Rainforest (AR), Rondônia state.
 
 ## Architecture
 The size of the optical image patches was set to 256 x 256 pixels for CV and LEM datasets, and 128 x 128 pixels for the AR. 
