@@ -10,12 +10,12 @@ Implementation of the atrous cGAN and pix2pix for the SAR-optical translation or
 - Numpy 1.16.1
 - Tensorflow 1.14.1
 
-### Datasets
-Land cover in Brazil
-Crop recognition:
+## Datasets
+###Land covers in Brazil.
+- Crop recognition:
                   Campo Verde (CV), Mato Grosso state
                   Luis Eduardo Magalhães, Bahia state.
-Deforestation detection:
+- Deforestation detection:
 
 ## Architecture
 
