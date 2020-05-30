@@ -2,7 +2,7 @@
 
 # atrous-cGAN-for-SAR-optical-synthesis
 
-Implementation of the atrous cGAN and pix2pix for the SAR-optical translation oriented to tow applications: crop recognition and deforestation detection.
+Implementation of the atrous cGAN and pix2pix for the SAR-optical translation oriented to the applications: crop recognition and deforestation detection.
 
 ## Dependencies
 
