@@ -20,7 +20,8 @@ Land covers in Brazil.
 
 ## Architecture
 The size of the optical image patches was set to 256 x 256 pixels for CV and LEM datasets, and 128 x 128 pixels for the AR. 
-The SAR image patches were 3 times bigger than their optical counterpart because of the difference of resolution between the two sensors. Accordingly, to use the SAR patches with the same size of optical, they were downsampled using an aditional convolutional layer with stride=3. The following table shows a detailed configuration of the parameters. Batch normalization and the Relu function are applied after each layer, except for the output of the Generator and the Discriminator. The hyperparameters are described in the main.py files.
+The SAR image patches were 3 times bigger than their optical counterpart because of the difference of resolution between the two sensors. Accordingly, to use the SAR patches with the same size of optical, they were downsampled using an aditional convolutional layer with stride=3.
+Batch normalization and the Relu function were applied after each layer, except for the output of the Generator and the Discriminator. The hyperparameters are described in the main.py files. The following table shows a detailed configuration of the parameters.  
 
 Terms:
 - C: Convolution.
@@ -28,7 +29,7 @@ Terms:
 - RU: Residual Unit.
 - ASPP: Atrous Spatial Pyramid Pooling.
 - IP: Image Pooling (image-level-features).
-
+- The number on the right refers to the depth of the output features map.
 
 
 
