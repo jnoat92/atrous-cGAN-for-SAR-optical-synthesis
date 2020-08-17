@@ -265,9 +265,12 @@ def create_dataset_coordinates(obj, prefix = 0):
     lbl = lbl[lims[0]:lims[1],lims[2]:lims[3]]
 
     # Loading cloud mask
-    cloud_mask = np.load(obj.cloud_path + '/'+ obj.opt_name + '/' + 
-                            obj.opt_name + '_cloud_shadow_mask_01.npy')
-    cloud_mask = cloud_mask[lims[0]:lims[1],lims[2]:lims[3]]
+    if obj.args.dataset_name == 'Amazonia_Legal':
+        cloud_mask = np.zeros_like(lbl)
+    elif obj.args.dataset_name == 'Cerrado_biome':
+        cloud_mask = np.load(obj.cloud_path + '/'+ obj.opt_name + '/' + 
+                                obj.opt_name + '_cloud_shadow_mask_01.npy')
+        cloud_mask = cloud_mask[lims[0]:lims[1],lims[2]:lims[3]]
     
     # Generate Patches for trn, val and tst
     if obj.args.data_augmentation:
