@@ -305,7 +305,7 @@ class pix2pix(object):
         # Percent of overlap between consecutive patches.
         # The overlap will be multiple of 2 and 3, this guarantes to
         # use the same variables to construct the optical image.
-        P = 0.75
+        P = 0.50
         overlap = 3 * round(self.image_size * P)
         overlap -= overlap % 6
         stride = 3 * self.image_size - overlap
